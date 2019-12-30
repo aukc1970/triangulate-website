@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+        <title>Learn</title>
+    
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content>
+        <meta name="keywords" content>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+        <!-- set base -->
+        <base href="../">
+
+        <!-- open graph -->
+        <meta property="og:url" content>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Learn">
+        <meta property="og:description" content>
+        <meta property="og:image" content>
+
+        <!-- icons -->
+        <link site-icon href="files/icon.png" rel="icon">
+        <link site-icon href="files/icon.png" rel="apple-touch-icon">
+
+        <!-- css -->
+        <link type="text/css" href="css/site.all.css?v=1577666629519" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+
+        
+    
+    </head>
+    <body data-lastmodified data-template="default" data-tags>
+        <section class="top text-right"></section>
+                <!-- /.top-section -->
+        <header role="banner">
+
+                    <div class="grid two-column vertical-center" data-width="full">
+
+                        <div class="col">
+                            <a class="logo" href="index.html">
+                                <img site-logo src="files/triangulate-logo.svg">
+                            </a>
+                        </div>
+                        <!-- /.col -->
+
+                        <div class="col text-right">
+                        
+                            <a class="small-screen menu-expand" site-toggle-active="#primary-menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                                </svg>
+                                Menu
+                            </a>
+                    
+                            <section id="primary-menu" class="menu">
+                
+                                <div site-component="menu-primary"><nav><ul><li><a class href="index.html" target>Home</a></li><li><a class href="page/tour.html" target>Tour</a></li><li><a class href="page/learn.html" target>Learn</a></li><li><a class href="page/contribute.html" target>Contribute</a></li><li><a class href="form/contact.html" target>Contact</a></li></ul></nav></div>
+                
+                                <a class="menu-close small-screen" site-toggle-active="#primary-menu">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#333333" height="24" viewBox="0 0 24 24" width="24">
+                                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                                        <path d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                </a>
+                            </section>
+                            <!-- /.menu-->
+
+                        </div>
+                        <!-- /.col -->
+
+                    </div>
+                    <!-- /.grid -->
+            
+                </header>
+        <main class="container" role="main">
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="one-column grid title-block text-center" data-width="full" data-horizontal-padding="small" data-vertical-padding="medium">
+ <div class="col">
+ <h1 class="page-title">Learn</h1><p>Learn how to get started with Triangulate.</p>
+ <p class="page-description"></p>
+ </div>
+</div>
+ 
+ <div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
+ <div class="col">
+ <h3>1. Installation</h3><p>Triangulate is a basic Express JS application.&#xA0; So, installation is easy.&#xA0; Just create a directory, clone, and install with NPM.&#xA0; Triangulate does require NodeJS and NPM.</p><pre><div># setup directories<br></div>mkdir my-website<div>cd my-website</div><div><br></div><div># clone repository<br><div>git clone https://github.com/madoublet/triangulate.git .</div><div><br></div><div># install dependencies</div><div>npm install<br></div><div><br></div><div># copy settings file</div><div>cp .env.sample .env</div><div><br></div><div># start app</div></div><div>npm start</div></pre>
+ </div>
+ </div><div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
+ <div class="col">
+ <h3>2. Updating your website code</h3><p>Yes, you can modify the HTML, CSS, and JavaScript directly in your site folder!&#xA0; Just navigate to your website directory and edit with your favorite IDE.&#xA0; If you change CSS and JS within the site folder, you will need to run the following command to compress and combine the files into the site.all.css and site.all.js files.</p><pre><div># switch to site directory</div><div>cd my-website/site</div><div><br></div><div># edit files</div><div><br></div><div># build site.all.css and site.all.js</div>gulp</pre>
+ </div>
+ </div>
+ <div class="one-column grid" data-horizontal-padding="small" data-width="default" data-vertical-padding="medium">
+ <div class="col">
+ <h3>3. Deploying your website</h3><p>Triangulate produces static websites.&#xA0; So, you have a ton of great options to deploy and host your website:&#xA0;</p><ul><li><a href="https://aws.amazon.com/getting-started/projects/host-static-website/">Amazon S3</a></li><li><a href="https://www.netlify.com/">Netlify</a></li><li><a href="https://pages.github.com/">Github Pages</a></li><li><a href="https://workers.cloudflare.com/sites/">Cloudflare Workers Sites</a></li><li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Microsoft Azure</a></li><li><a href="https://cloud.google.com/storage/docs/static-website">Google Cloud</a></li></ul><p>The big thing to remember is that you will still need a way to process forms.&#xA0; The Triangulate app ships with a form processing API.&#xA0; However, this does mean you have to deploy the app and make it public.&#xA0; This might be perfect if you plan non-local access to Triangulate.&#xA0; Alternatively, we have provided you with an AWS Lambda function that can easily be deployed to have a true serverless website.</p>
+ </div>
+ </div>
+ 
+ <div class="one-column grid lead-block text-center" data-vertical-padding="medium" data-horizontal-padding="small" data-width="full">
+ <div class="col">
+ <p>Help us make Triangulate better. Learn how you can&#xA0;<a href="page/contribute.html">contribute</a>.</p>
+ </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        </main>
+        <footer role="contentinfo">
+
+                
+                        <div class="two-column grid" data-vertical-padding="small" data-horizontal-padding="small">
+                            <div class="col text-left">
+                                <div site-component="menu-footer"><nav><ul><li><a class href="index.html" target>Home</a></li><li><a class href="page/tour.html" target>Tour</a></li><li><a class href="page/learn.html" target>Learn</a></li><li><a class href="page/contribute.html" target>Contribute</a></li><li><a class href="form/contact.html" target>Contact</a></li></ul></nav></div>
+                            </div>
+                            <div class="col text-right">
+                                <p class="built-with">Built by <a href="https://matthewsmith.com">Matthew Smith</a> with <a href="https://triangulate.io">Triangulate</a>.</p>
+                            </div>
+                        </div>
+                        <!-- /.one-column.grid -->
+                
+                    </footer>
+                    <!-- footer -->
+    
+
+<script src="js/site.all.js?v=1577666629519"></script>
+
+
+
+</body></html>
