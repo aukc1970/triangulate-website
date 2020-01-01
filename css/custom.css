@@ -3,6 +3,18 @@ body header .logo {
     margin-left: 20px !important;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    body header .col {
+        text-align: center;
+    }
+
+    body header .logo {
+        margin: 20px !important;
+    }
+}
+
 body h1, body h2, body h3 {
     font-weight: bold;
 }

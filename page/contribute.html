@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en" dir="ltr"><head>
-        <title>Contribute</title>
+        <title>Triangulate - Contribute</title>
     
         <!-- meta -->
         <meta charset="utf-8">
@@ -20,11 +20,12 @@
         <meta property="og:image" content>
 
         <!-- icons -->
-        <link site-icon href="files/icon.png" rel="icon">
-        <link site-icon href="files/icon.png" rel="apple-touch-icon">
+        <link site-icon href="resources/triangulate-icon.png" rel="icon">
+        <link site-icon href="resources/triangulate-icon.png" rel="apple-touch-icon">
 
         <!-- css -->
-        <link type="text/css" href="css/site.all.css?v=1577595535282" rel="stylesheet">
+        <link type="text/css" href="css/site.all.css?v=1577890544574" rel="stylesheet">
+        <link type="text/css" href="css/pay.css?v=1577890544574" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 
         
@@ -76,8 +77,10 @@
                 </header>
         <main class="container" role="main">
             
-            
-            
+ 
+ 
+ 
+ 
  <div class="one-column grid title-block text-center" data-width="full" data-horizontal-padding="small" data-vertical-padding="medium">
  <div class="col">
  <h1 class="page-title">Contribute</h1>
@@ -86,7 +89,18 @@
 </div>
  <div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
  <div class="col">
- <h3>1. Contribute Financially</h3><p>If you are interesting in sponsoring the project,&#xA0;<a href="form/contact.html">get in touch</a>.&#xA0; Sponsorship will get your site featured on our main page.&#xA0; We also accept one time and recurring donations via PayPal.&#xA0; As you build websites for others, we recommend building a contribution into your support agreement.</p>
+ <h3>1. Contribute Financially</h3><p>If you are interesting in sponsoring the project,&#xA0;<a href="form/contact.html">get in touch</a>.&#xA0; Sponsorship will get your site featured on our main page.&#xA0; We also accept one time and recurring donations via PayPal.&#xA0; As you build websites for others, we recommend building a contribution into your support agreement.</p><div site-component="pay"><div class="pay-block">
+    <span class="mark">$</span> <input id="amount" type="number" value="25" class="pay-input">
+
+    <div class="pay-radio">
+        <label><input id="per-month" type="radio" name="pay-per" checked> Per month</label>
+        <label><input id="one-time" type="radio" name="pay-per"> One time</label>
+    </div>
+
+    <button pay-now>Contribute</button>
+
+    <p class="processed-by">Payments are processed by PayPal</p>
+</div></div>
  </div>
  </div><div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
  <div class="col">
@@ -97,8 +111,10 @@
  <h3>3. Submit Bugs</h3><p>Submit bugs on Github at&#xA0;<a href="https://github.com/madoublet/triangulate">madoublet/triangulate</a>.</p>
  </div>
  </div>
-        
-        
+ 
+ 
+ 
+ 
         </main>
         <footer role="contentinfo">
 
@@ -117,7 +133,8 @@
                     <!-- footer -->
     
 
-<script src="js/site.all.js?v=1577595535282"></script>
+<script src="js/site.all.js?v=1577890544574"></script>
+<script src="js/pay.js?v=1577890544574"></script>
 
 
 
