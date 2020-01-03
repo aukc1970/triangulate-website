@@ -3,6 +3,10 @@ body header .logo {
     margin-left: 20px !important;
 }
 
+body main {
+    min-height: 600px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
 

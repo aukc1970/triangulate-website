@@ -6,7 +6,7 @@
   <input type="hidden" name="cmd" value="_xclick">
   <input type="hidden" name="business" value="matt@matthewsmith.com">
   <input type="hidden" name="lc" value="US">
-  <input type="hidden" name="item_name" value="Respond Recurring Contribution">
+  <input type="hidden" name="item_name" value="Triangulate Recurring Contribution">
   <input type="hidden" name="amount" value="25.00">
   <input type="hidden" name="currency_code" value="USD">
   <input type="hidden" name="button_subtype" value="services">
@@ -21,7 +21,7 @@
     <input type="hidden" name="cmd" value="_xclick-subscriptions">
     <input type="hidden" name="business" value="matt@matthewsmith.com">
     <input type="hidden" name="lc" value="US">
-    <input type="hidden" name="item_name" value="Respond Recurring Contribution">
+    <input type="hidden" name="item_name" value="Triangulate Recurring Contribution">
     <input type="hidden" name="no_note" value="1">
     <input type="hidden" name="src" value="1">
     <input type="hidden" name="a3" value="5.00">
@@ -47,11 +47,11 @@ var payWhatever = (function() {
     els[x].addEventListener('click', function() {
 
       // setup
-      logo = 'https://respondcms.com/resources/respond-paypal-logo.png';
+      logo = 'https://triangulate.io/resources/triangulate-paypal.png';
 			email = 'matt@matthewsmith.com';
 			currency = 'USD';
-			returnUrl = 'https://triangulate.io/thank-you.html';
-			cancelUrl = 'https://triangulate.io/thank-you.html';
+			returnUrl = 'https://triangulate.io/index.html';
+			cancelUrl = 'https://triangulate.io/index.html';
 			useSandbox = false;
 			amount = parseFloat(document.querySelector('#amount').value);
 
@@ -69,10 +69,10 @@ var payWhatever = (function() {
   				'return': returnUrl,
   				'cancel_return': cancelUrl,
   				'image_url': logo,
-  				'item_name': 'Respond Contribution',
+  				'item_name': 'Triangulate Contribution',
   				'quantity': 1,
   				'amount': parseFloat(amount),
-  				'item_number': 'RESPOND_LICENSE'
+  				'item_number': 'TRIANGULATE_ONE_TIME'
   			};
 
       }
@@ -88,12 +88,12 @@ var payWhatever = (function() {
   				'return': returnUrl,
   				'cancel_return': cancelUrl,
   				'image_url': logo,
-  				'item_name': 'Respond Recurring Contribution',
+  				'item_name': 'Triangulate Recurring Contribution',
   				'src': 1,
   				'a3': parseFloat(amount),
   				'p3': 1,
   				't3': 'M',
-  				'item_number': 'RESPOND_LICENSE'
+  				'item_number': 'TRIANGULATE_MONTHLY'
   			};
 
       }
