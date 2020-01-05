@@ -39,11 +39,15 @@ body .primary-button {
     border-radius: 50px;
     background: url(../resources/arrow.svg) no-repeat 90% 20px;
     background-size: 15px;
+    color: #4AA0A2 !important;
+    text-decoration: none;
 }
 
 body .primary-button:hover {
     background: #4AA0A2 url(../resources/arrow-white.svg) no-repeat 90% 20px;
     background-size: 15px;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 body .section-divider {
@@ -79,6 +83,7 @@ body .title-block h1 {
 
 body .title-block .primary-button {
     margin-right: 15px;
+    color: #fff !important;
 }
 
 body .top {
