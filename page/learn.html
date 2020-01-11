@@ -26,8 +26,8 @@
     <link site-icon href="resources/triangulate-icon.png" rel="apple-touch-icon">
 
     <!-- css -->
-    <link type="text/css" href="css/site.all.css?v=1578093690982" rel="stylesheet">
-    <link type="text/css" href="css/pay.css?v=1578093690982" rel="stylesheet">
+    <link type="text/css" href="css/site.all.css?v=1578755114005" rel="stylesheet">
+    <link type="text/css" href="css/pay.css?v=1578755114005" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
   </head>
   <body data-lastmodified data-template="default" data-tags>
@@ -80,7 +80,7 @@
       <div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
         <div class="col">
           <h3>1. Installation</h3>
-          <p>Triangulate is a basic Express JS application.&#xA0; So, installation is easy.&#xA0; Just create a directory, clone, and install with NPM.&#xA0; Triangulate does require NodeJS and NPM.</p><pre><div># setup directories<br></div>mkdir my-website<div>cd my-website</div><div><br></div><div># clone repository<br><div>git clone https://github.com/madoublet/triangulate.git .</div><div><br></div><div># install dependencies</div><div>npm install<br></div><div><br></div><div># copy settings file</div><div>cp .env.sample .env</div><div><br></div><div># start app</div></div><div>npm start</div></pre>
+          <p>Triangulate is a basic Express JS application.&#xA0; So, installation is easy.&#xA0; Just create a directory, clone, and install with NPM.&#xA0; Triangulate does require NodeJS (version 12+ recommended) and NPM.</p><pre><div># setup directories<br></div>mkdir my-website<div>cd my-website</div><div><br></div><div># clone repository<br><div>git clone https://github.com/madoublet/triangulate.git .</div><div><br></div><div># install dependencies</div><div>npm install<br></div><div><br></div><div># copy settings file</div><div>cp .env.sample .env</div><div><br></div><div># start app</div></div><div>npm start</div></pre>
         </div>
       </div>
       <div class="one-column grid" data-vertical-padding="medium" data-horizontal-padding="small">
@@ -144,7 +144,18 @@
     </footer>
 
     <!-- footer -->
-    <script src="js/site.all.js?v=1578093690982"></script>
-    <script src="js/pay.js?v=1578093690982"></script>
+    <script src="js/site.all.js?v=1578755114005"></script>
+    <script src="js/pay.js?v=1578755114005"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109521664-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-109521664-4');
+    </script>
   </body>
 </html>
